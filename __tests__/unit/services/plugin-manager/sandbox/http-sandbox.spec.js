@@ -5,7 +5,7 @@ jest.mock('got')
 
 const plugin = {
   config: {
-    urls: ['ark.io']
+    urls: ['swipechain.org']
   }
 }
 
@@ -29,24 +29,24 @@ describe('Http Sandbox', () => {
   })
 
   it('should get an authrorized url', () => {
-    walletApi.http.get('ark.io')
-    expect(got.get).toHaveBeenCalledWith('ark.io', undefined)
+    walletApi.http.get('swipechain.org')
+    expect(got.get).toHaveBeenCalledWith('swipechain.org', undefined)
   })
 
   it('should get an authrorized url with options', () => {
     const options = { agent: 'jest' }
-    walletApi.http.get('ark.io', options)
-    expect(got.get).toHaveBeenCalledWith('ark.io', options)
+    walletApi.http.get('swipechain.org', options)
+    expect(got.get).toHaveBeenCalledWith('swipechain.org', options)
   })
 
   it('should post to an authrorized url', () => {
-    walletApi.http.post('ark.io')
-    expect(got.post).toHaveBeenCalledWith('ark.io', undefined)
+    walletApi.http.post('swipechain.org')
+    expect(got.post).toHaveBeenCalledWith('swipechain.org', undefined)
   })
 
   it('should post to an authrorized url with options', () => {
     const options = { version: 2 }
-    walletApi.http.post('ark.io', options)
-    expect(got.post).toHaveBeenCalledWith('ark.io', options)
+    walletApi.http.post('swipechain.org', options)
+    expect(got.post).toHaveBeenCalledWith('swipechain.org', options)
   })
 })

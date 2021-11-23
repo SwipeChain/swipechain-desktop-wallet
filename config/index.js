@@ -3,7 +3,7 @@ const os = require('os')
 const path = require('path')
 
 exports.APP = {
-  website: 'https://ark.io',
+  website: 'https://swipechain.org',
   transactionExpiryMinutes: 45
 }
 
@@ -13,12 +13,12 @@ exports.NETWORKS = [
 ]
 
 exports.PEERS = {
-  'ark.mainnet': require('./peers/mainnet.json'),
-  'ark.devnet': require('./peers/devnet.json')
+  'sxp.mainnet': require('./peers/mainnet.json'),
+  'sxp.devnet': require('./peers/devnet.json')
 }
 
 exports.ANNOUNCEMENTS = {
-  rssUrl: 'https://blog.ark.io/feed'
+  rssUrl: 'https://blog.swipechain.org/feed'
 }
 
 exports.VENDOR_FIELD = {
@@ -156,7 +156,7 @@ exports.PLUGINS = {
   officialScope: 'arkecosystem',
   officialAuthor: 'ARK Ecosystem',
   path: path.resolve(os.homedir(), '.ark-desktop/plugins'),
-  reportUrl: 'https://ark.io/contact',
+  reportUrl: 'https://swipechain.org/contact',
   sharePath: path.resolve(os.homedir(), '.ark-desktop/share'),
   updateInterval: {
     value: 1,

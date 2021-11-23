@@ -1,15 +1,15 @@
 {
-  "id": "swipechain.mainnet",
+  "id": "sxp.mainnet",
   "name": "Swipechain Mainnet",
   "title": "Swipechain Mainnet",
   "server": "https://dapi.swipechain.org",
   "description": "The ARK Mainnet should be chosen in most cases.",
-  "imagePath": "networks/swipechain.mainnet.svg",
+  "imagePath": "networks/ark.png",
   "apiVersion": 2,
   "slip44": "111",
   "market": {
     "enabled": true,
-    "ticker": "SXP"
+    "ticker": "ARK"
   },
   "feeStatistics": [
     {
@@ -54,10 +54,10 @@
   },
   "nethash": "6e84d08bd299ed97c212c886c98a57e36545c8f5d645ca7eeae63a8bd62d8988",
   "explorer": "https://explorer.swipechain.org",
-  "knownWalletsUrl": "https://raw.githubusercontent.com/SwipeChain/common/master/mainnet/known-wallets.json",
-  "token": "ARK",
+  "knownWalletsUrl": "https://raw.githubusercontent.com/ArkEcosystem/common/master/mainnet/known-wallets.json",
+  "token": "SXP",
   "subunit": "arktoshi",
-  "symbol": "Ѧ",
+  "symbol": "SXP",
   "fractionDigits": 8,
   "version": 23,
   "wif": 170

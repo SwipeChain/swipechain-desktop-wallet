@@ -35,14 +35,14 @@ describe('Validate component', () => {
 
   it('should not have iframe tag', () => {
     const component = {
-      template: '<iframe src="ark.io"></iframe>'
+      template: '<iframe src="swipechain.org"></iframe>'
     }
     expect(validateComponent({ plugin, component })).toBe(false)
   })
 
   it('should not have webview tag', () => {
     const component = {
-      template: '<webview src="ark.io"></webview>'
+      template: '<webview src="swipechain.org"></webview>'
     }
     expect(validateComponent({ plugin, component })).toBe(false)
   })

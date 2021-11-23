@@ -2,8 +2,8 @@
 
 ![Ark Desktop Wallet](./banner.png)
 
-[![Build Status](https://badgen.now.sh/github/status/SwipeChain/desktop-wallet)](https://github.com/SwipeChain/swipechain-desktop-wallet/actions?query=branch%3Adevelop)
-[![Latest Version](https://badgen.now.sh/github/release/SwipeChain/desktop-wallet)](https://github.com/SwipeChain/swipechain-desktop-wallet/releases)
+[![Build Status](https://badgen.now.sh/github/status/SwipeChain/swipechain-desktop-wallet)](https://github.com/SwipeChain/swipechain-desktop-wallet/actions?query=branch%3Adevelop)
+[![Latest Version](https://badgen.now.sh/github/release/SwipeChain/swipechain-desktop-wallet)](https://github.com/SwipeChain/swipechain-desktop-wallet/releases)
 [![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
 
 > Lead Maintainer: [Lúcio Rubens](https://github.com/luciorubeens)
@@ -120,7 +120,7 @@ yarn test:e2e:full
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to security@ark.io. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to security@swipechain.org. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
@@ -128,4 +128,4 @@ This project exists thanks to all the people who [contribute](../../contributors
 
 ## License
 
-[MIT](LICENSE) © [ARK Ecosystem](https://ark.io)
+[MIT](LICENSE) © [ARK Ecosystem](https://swipechain.org)

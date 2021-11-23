@@ -322,8 +322,8 @@ export default {
       }
 
       const networkLookup = {
-        'ark.mainnet': 'mainnet',
-        'ark.devnet': 'devnet'
+        'sxp.mainnet': 'mainnet',
+        'sxp.devnet': 'devnet'
       }
 
       if (networkLookup[network.id]) {
@@ -363,8 +363,8 @@ export default {
         }
 
         const networkLookup = {
-          'ark.mainnet': 'mainnet',
-          'ark.devnet': 'devnet'
+          'sxp.mainnet': 'mainnet',
+          'sxp.devnet': 'devnet'
         }
 
         if (network && networkLookup[network.id]) {
@@ -551,10 +551,15 @@ export default {
         host = ip
       }
       let baseUrl = `${host}:${port}`
+      console.log('base url: ', baseUrl)
       const schemeUrl = host.match(/^(https?:\/\/)+(.+)$/)
       if (!schemeUrl) {
         baseUrl = `http://${baseUrl}`
       }
+      if (port === 443) {
+        baseUrl = `https://${host}`
+      }
+      console.log('update base url: ', baseUrl)
       try {
         networkConfig = await ClientService.fetchNetworkConfig(baseUrl, timeout)
       } catch (error) {

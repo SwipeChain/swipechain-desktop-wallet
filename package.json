@@ -6,12 +6,12 @@
     "type": "git",
     "url": "git+https://github.com/SwipeChain/swipechain-desktop-wallet.git"
   },
-  "author": "Swipechain <info@ark.io>",
+  "author": "Swipechain <info@swipechain.org>",
   "contributors": [
-    "Alex Barnsley <alex@ark.io>",
+    "Alex Barnsley <alex@swipechain.org>",
     "ItsANameToo <itsanametoo@protonmail.com>",
-    "Juan A. Martín <juan@ark.io>",
-    "Lúcio Rubens <lucio@ark.io>"
+    "Juan A. Martín <juan@swipechain.org>",
+    "Lúcio Rubens <lucio@swipechain.org>"
   ],
   "description": "Ark Ecosystem Desktop Wallet",
   "license": "MIT",

@@ -61,7 +61,7 @@ const transactions = {
     asset: {
       businessRegistration: {
         name: 'test business',
-        website: 'https://ark.io',
+        website: 'https://swipechain.org',
         vat: 'GB12345678',
         repository: 'https://github.com/arkecosystem/desktop-wallet.git'
       }
@@ -79,7 +79,7 @@ const transactions = {
     asset: {
       businessUpdate: {
         name: 'test business',
-        website: 'https://ark.io',
+        website: 'https://swipechain.org',
         vat: 'GB12345678',
         repository: 'https://github.com/arkecosystem/desktop-wallet.git'
       }

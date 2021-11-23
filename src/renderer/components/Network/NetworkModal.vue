@@ -374,6 +374,7 @@ export default {
           this.form.version = networkConfig.version.toString()
         } else {
           try {
+            console.log('form modal1 url: ', this.form)
             ClientService.fetchNetworkConfig(this.form.server)
               .then(network => {
                 this.form.version = network.version.toString()
@@ -559,7 +560,7 @@ export default {
         slip44: '1',
         activeDelegates: '51'
       }
-
+      console.log('form modal url: ', this.form)
       const fetchAndFill = async (callback = null) => {
         const network = await ClientService.fetchNetworkConfig(this.form.server)
 

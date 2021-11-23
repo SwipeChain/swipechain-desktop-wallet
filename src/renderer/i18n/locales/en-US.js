@@ -3,10 +3,10 @@ export default {
     ADAPTER: 'Adapter',
     ADDRESS: 'Address',
     ALL: 'All',
-    APP_NAME: 'ARK Desktop Wallet',
-    APP_NAME_SHORT: 'ARK Desktop',
+    APP_NAME: 'Swipechain Desktop Wallet',
+    APP_NAME_SHORT: 'Swipechain Desktop',
     APPEARANCE: 'Appearance',
-    ARK: 'ARK',
+    ARK: 'Swipechain',
     AVATAR: 'Avatar',
     BACK: 'Back',
     BACKGROUND: 'Background',
@@ -53,7 +53,7 @@ export default {
     THEME: 'Theme',
     THEMES: {
       LIGHT: 'Default: Light',
-      DARK: 'Default: Dark'
+      DARK: 'Default: Dsxp'
     },
     TIME_FORMAT: 'Time format',
     URL: 'URL',
@@ -92,7 +92,7 @@ export default {
       OWNER: 'This also brings greater responsibility for you, the account owner.',
       WARNING: {
         ACCOUNT: 'Unlike your traditional bank account, {CANNOT_RESTORE}.',
-        CANNOT_RESTORE: 'lost passwords, passphrases or stolen funds cannot be restored by the delegates, ARK.io team, or anyone else'
+        CANNOT_RESTORE: 'lost passwords, passphrases or stolen funds cannot be restored by the delegates, swipechain.org team, or anyone else'
       },
       SECURITY: 'The security of your account is solely up to you.'
     },
@@ -113,8 +113,8 @@ export default {
     TURN: {
       TITLE: 'Your Turn',
       KNOWLEDGE: 'Now, armed with the knowledge of how important it is to keep your passphrases safe, you are ready to claim your financial autonomy with the ARK Desktop Wallet.',
-      SUPPORT: 'ARK is an open-source ecosystem and if you need assistance, the ARK community and team is here to help. Create a post on reddit.ark.io, or join the real-time chat system at slack.ark.io.',
-      CONCLUSION: 'Everyone here on the ARK.io team hopes you enjoy using the ARK Desktop Wallet to participate in the blockchain revolution!'
+      SUPPORT: 'ARK is an open-source ecosystem and if you need assistance, the ARK community and team is here to help. Create a post on reddit.swipechain.org, or join the real-time chat system at slack.swipechain.org.',
+      CONCLUSION: 'Everyone here on the swipechain.org team hopes you enjoy using the ARK Desktop Wallet to participate in the blockchain revolution!'
     }
   },
 
@@ -263,7 +263,7 @@ export default {
   },
 
   APP_FOOTER: {
-    TEXT: 'Made with ♥ by ARK'
+    TEXT: 'Made with ♥ by Swipechain'
   },
 
   APP_SIDEMENU: {
@@ -716,7 +716,7 @@ export default {
         BLACKLIST: 'The plugin \'{plugin}\' was added to the blacklist',
         RELOAD: 'The plugin repository was reloaded successfully'
       },
-      DISCLAIMER: '<b>Disclaimer:</b> The availability of this plugin in the ARK Desktop Wallet does not mean that either ARK.io or ARK SCIC is directly involved in the development or affiliated with the developer providing this plugin. By installing it on your wallet, you assume every responsibility.',
+      DISCLAIMER: '<b>Disclaimer:</b> The availability of this plugin in the ARK Desktop Wallet does not mean that either swipechain.org or ARK SCIC is directly involved in the development or affiliated with the developer providing this plugin. By installing it on your wallet, you assume every responsibility.',
       REPORT: 'Report this plugin',
       BLACKLISTED: 'This plugin is already blacklisted',
       VERSION_MISMATCH: 'This plugin is not compatible with your wallet version'
@@ -791,7 +791,7 @@ export default {
       ADVANCED_MODE: {
         DECLINE: 'I Decline',
         ACCEPT: 'I Accept',
-        QUESTION: 'By enabling Advanced Mode you hereby assume the risk associated with downloading files and installing said files from a direct URL link. The aforementioned links have neither been tested nor approved by ARK.io and ARK SCIC. We make no warranties, expressed or implied, as to the sustainability, availability, security, of these URLs. We are not responsible for any consequences which may occur from downloading, viewing, or installing files directly from a URL or feature that is activated via toggling on Advanced Mode. ARK.io and ARK SCIC shall bear no liability for any loss suffered by users who bypass certain measures by toggling on Advanced Mode. By clicking “I Accept” you acknowledge that enabling Advanced Mode may result in you downloading, viewing, or installing content that may have bugs, glitches, lack of functionality, or can cause damage to your machine or result in the loss of data.',
+        QUESTION: 'By enabling Advanced Mode you hereby assume the risk associated with downloading files and installing said files from a direct URL link. The aforementioned links have neither been tested nor approved by swipechain.org and ARK SCIC. We make no warranties, expressed or implied, as to the sustainability, availability, security, of these URLs. We are not responsible for any consequences which may occur from downloading, viewing, or installing files directly from a URL or feature that is activated via toggling on Advanced Mode. swipechain.org and ARK SCIC shall bear no liability for any loss suffered by users who bypass certain measures by toggling on Advanced Mode. By clicking “I Accept” you acknowledge that enabling Advanced Mode may result in you downloading, viewing, or installing content that may have bugs, glitches, lack of functionality, or can cause damage to your machine or result in the loss of data.',
         TITLE: 'Advanced Mode Disclaimer'
       }
     },
@@ -1384,7 +1384,7 @@ export default {
 
   BLACKLIST_DISCLAIMER_CONFIRMATION: {
     QUESTION: 'Are you sure you want to disable the blacklist?',
-    NOTE: 'Warning: By turning off filtering, you will be viewing third-party plugins that have not been tested and approved by ARK.io and ARK SCIC. We make no warranties, expressed or implied, as to the sustainability, availability, security, of the third-party plugin. We are not responsible for any of the content presented as a result of viewing, installing, or running any of these third-party plugins. ARK.io and ARK SCIC shall bear no liability for any loss suffered by using third-party plugins. By clicking "I Accept" you acknowledge that unverified third-party plugins may have bugs, glitches, lack of functionality, or can cause damage to your machine or result in the loss of data.',
+    NOTE: 'Warning: By turning off filtering, you will be viewing third-party plugins that have not been tested and approved by swipechain.org and ARK SCIC. We make no warranties, expressed or implied, as to the sustainability, availability, security, of the third-party plugin. We are not responsible for any of the content presented as a result of viewing, installing, or running any of these third-party plugins. swipechain.org and ARK SCIC shall bear no liability for any loss suffered by using third-party plugins. By clicking "I Accept" you acknowledge that unverified third-party plugins may have bugs, glitches, lack of functionality, or can cause damage to your machine or result in the loss of data.',
     ACCEPT: 'I Accept',
     CANCEL: 'Cancel'
   },

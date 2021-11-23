@@ -31,7 +31,7 @@ jest.mock('@/store', () => ({
     'session/network': {},
     'network/byId': (id) => {
       let version = 23
-      if (id === 'ark.devnet') {
+      if (id === 'sxp.devnet') {
         version = 30
       }
 
@@ -155,7 +155,7 @@ describe('Services > Client', () => {
         passphrase,
         secondPassphrase,
         networkWif: 170,
-        networkId: 'ark.mainnet',
+        networkId: 'sxp.mainnet',
         nonce: '1'
       }
     })
@@ -191,7 +191,7 @@ describe('Services > Client', () => {
 
       await TransactionSigner.sign(signData)
 
-      expect(networkByIdSpy).toHaveBeenCalledWith('ark.mainnet')
+      expect(networkByIdSpy).toHaveBeenCalledWith('sxp.mainnet')
 
       networkByIdSpy.mockRestore()
     })

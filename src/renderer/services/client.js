@@ -34,6 +34,7 @@ export default class ClientService {
    * @returns {Object}
    */
   static async fetchNetworkConfig (server, timeout) {
+    console.log('server url: ', server)
     const response = await ClientService.newConnection(server, timeout)
       .api('node')
       .configuration()

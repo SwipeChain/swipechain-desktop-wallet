@@ -1,5 +1,5 @@
 {
-  "id": "swipechain.devnet",
+  "id": "sxp.devnet",
   "name": "Swipechain Devnet",
   "title": "Swipechain Devnet",
   "server": "https://dapi.swipechain.org",
@@ -55,9 +55,9 @@
   "nethash": "434f531b97911367a7029beab96834409d6a29c3b269b6e6156d84445b5b9cc3",
   "explorer": "https://dexplorer.swipechain.org",
   "knownWalletsUrl": "https://raw.githubusercontent.com/SwipeChain/common/master/devnet/known-wallets.json",
-  "token": "DARK",
-  "subunit": "darktoshi",
-  "symbol": "DѦ",
+  "token": "SXP",
+  "subunit": "dsxptoshi",
+  "symbol": "SXP",
   "fractionDigits": 8,
   "version": 30,
   "wif": 170

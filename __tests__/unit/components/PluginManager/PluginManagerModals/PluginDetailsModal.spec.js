@@ -84,7 +84,7 @@ describe('PluginDetailsModal', () => {
     })
 
     it('should report the plugin', () => {
-      const arg = 'https://ark.io/contact?subject=desktop_wallet_plugin_report&plugin_id=test&plugin_version=0.0.1'
+      const arg = 'https://swipechain.org/contact?subject=desktop_wallet_plugin_report&plugin_id=test&plugin_version=0.0.1'
 
       jest.spyOn(wrapper.vm, 'electron_openExternal')
 

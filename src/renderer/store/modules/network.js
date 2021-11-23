@@ -55,8 +55,8 @@ export default new BaseModule(NetworkModel, {
       if (!isEmpty(all)) {
         // Update API server on existing networks
         const servers = {
-          'ark.devnet': 'https://dwallets.ark.io',
-          'ark.mainnet': 'https://wallets.ark.io'
+          'sxp.devnet': 'https://dapi.swipechain.org',
+          'sxp.mainnet': 'https://dapi.swipechain.org'
         }
         const sanitizedAll = all.map(network => {
           const server = servers[network.id] || network.server
@@ -96,6 +96,7 @@ export default new BaseModule(NetworkModel, {
 
       try {
         const crypto = await Client.fetchNetworkCrypto(network.server)
+        console.log('network: ', network)
         const { constants, core } = await Client.fetchNetworkConfig(network.server)
 
         if (core.version) {
