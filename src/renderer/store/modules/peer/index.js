@@ -23,7 +23,7 @@ const discoverPeers = async (peerDiscovery) => {
       'latency'
     ]
   })
-
+  console.log('peers: ', peers)
   if (peers && peers.length) {
     return peers
   }
@@ -322,8 +322,8 @@ export default {
       }
 
       const networkLookup = {
-        'sxp.mainnet': 'mainnet',
-        'sxp.devnet': 'devnet'
+        'swipechain.mainnet': 'mainnet',
+        'swipechain.devnet': 'devnet'
       }
 
       if (networkLookup[network.id]) {
@@ -363,8 +363,8 @@ export default {
         }
 
         const networkLookup = {
-          'sxp.mainnet': 'mainnet',
-          'sxp.devnet': 'devnet'
+          'swipechain.mainnet': 'mainnet',
+          'swipechain.devnet': 'devnet'
         }
 
         if (network && networkLookup[network.id]) {
@@ -377,7 +377,7 @@ export default {
               const seeds = fallbackSeeds[network.id]
               const seed = seeds[Math.floor(Math.random() * seeds.length)]
               const peerDiscovery = await PeerDiscovery.new({ networkOrHost: `http://${seed.ip}:4003/api/peers` })
-
+              console.log('peer discovery: ', peerDiscovery)
               peers = await discoverPeers(peerDiscovery)
 
               peerDiscoveryFailed = false

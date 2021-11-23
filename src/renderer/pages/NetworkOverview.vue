@@ -121,7 +121,7 @@ export default {
 
   methods: {
     getNetworks () {
-      const defaultNetworkIds = ['sxp.mainnet', 'sxp.devnet']
+      const defaultNetworkIds = ['swipechain.mainnet', 'swipechain.devnet']
 
       this.networks = Object.values(this.$store.getters['network/all']).map(network => {
         return {

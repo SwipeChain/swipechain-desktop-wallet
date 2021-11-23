@@ -13,8 +13,8 @@ exports.NETWORKS = [
 ]
 
 exports.PEERS = {
-  'sxp.mainnet': require('./peers/mainnet.json'),
-  'sxp.devnet': require('./peers/devnet.json')
+  'swipechain.mainnet': require('./peers/mainnet.json'),
+  'swipechain.devnet': require('./peers/devnet.json')
 }
 
 exports.ANNOUNCEMENTS = {

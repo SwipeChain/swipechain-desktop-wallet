@@ -39,7 +39,6 @@ export default {
       }
 
       const config = merge({}, defaultOptions, options, mandatoryOptions)
-
       // `vue-i18n` uses `Intl.NumberFormat` internally, so it doesn't admit nonexistent
       // currencies. For that reason, we use the "no-currency" code instead and
       // replace it later with the cryptocurrency code or symbol
@@ -86,16 +85,14 @@ export default {
       }
 
       const formatted = this.$n(value.toString(), config)
-
       // When using cryptocurrencies, add a space between the symbol and the number
       if (cryptoCurrency) {
         return formatted
           .replace(/\s/g, '')
-          .replace(cryptoPlaceholder, `\xa0${cryptoCurrency}\xa0`)
-          .replace(cryptoPlaceholderSymbol, `\xa0${cryptoCurrency}\xa0`)
+          .replace(cryptoPlaceholder, `\xa0${'SXP'}\xa0`)
+          .replace(cryptoPlaceholderSymbol, `\xa0${'SXP'}\xa0`)
           .trim()
       }
-
       return formatted
     },
 

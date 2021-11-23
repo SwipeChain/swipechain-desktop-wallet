@@ -1,4 +1,4 @@
 export const fallbackSeeds = {
-  'sxp.mainnet': require('./mainnet.json'),
-  'sxp.devnet': require('./devnet.json')
+  'swipechain.mainnet': require('./mainnet.json'),
+  'swipechain.devnet': require('./devnet.json')
 }

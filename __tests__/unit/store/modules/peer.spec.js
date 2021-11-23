@@ -73,8 +73,8 @@ describe('peer store module', () => {
   })
 
   it('should get random seed server peer', () => {
-    const randomSeedPeers = store.getters['peer/randomSeedPeers'](5, 'sxp.mainnet')
-    const randomSeedPeers2 = store.getters['peer/randomSeedPeers'](5, 'sxp.mainnet')
+    const randomSeedPeers = store.getters['peer/randomSeedPeers'](5, 'swipechain.mainnet')
+    const randomSeedPeers2 = store.getters['peer/randomSeedPeers'](5, 'swipechain.mainnet')
     expect(randomSeedPeers).not.toEqual(randomSeedPeers2)
   })
 

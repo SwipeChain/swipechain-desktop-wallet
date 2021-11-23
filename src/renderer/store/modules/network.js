@@ -55,8 +55,8 @@ export default new BaseModule(NetworkModel, {
       if (!isEmpty(all)) {
         // Update API server on existing networks
         const servers = {
-          'sxp.devnet': 'https://dapi.swipechain.org',
-          'sxp.mainnet': 'https://dapi.swipechain.org'
+          'swipechain.devnet': 'https://dapi.swipechain.org',
+          'swipechain.mainnet': 'https://dapi.swipechain.org'
         }
         const sanitizedAll = all.map(network => {
           const server = servers[network.id] || network.server
