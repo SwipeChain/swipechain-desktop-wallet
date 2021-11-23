@@ -1,0 +1,64 @@
+{
+  "id": "swipechain.devnet",
+  "name": "Swipechain Devnet",
+  "title": "Swipechain Devnet",
+  "server": "https://dapi.swipechain.org",
+  "description": "The Swipechain Devnet is only used for R&D by engineers.",
+  "imagePath": "networks/swipechain.devnet.svg",
+  "apiVersion": 2,
+  "slip44": "1",
+  "market": {
+    "enabled": false,
+    "ticker": null
+  },
+  "feeStatistics": [
+    {
+      "type": 0,
+      "fees": {
+        "avgFee": 10000000,
+        "maxFee": 10000000,
+        "minFee": 10000000
+      }
+    },
+    {
+      "type": 1,
+      "fees": {
+        "avgFee": 500000000,
+        "maxFee": 500000000,
+        "minFee": 500000000
+      }
+    },
+    {
+      "type": 2,
+      "fees": {
+        "avgFee": 2500000000,
+        "maxFee": 2500000000,
+        "minFee": 2500000000
+      }
+    },
+    {
+      "type": 3,
+      "fees": {
+        "avgFee": 100000000,
+        "maxFee": 100000000,
+        "minFee": 100000000
+      }
+    }
+  ],
+  "constants": {
+    "activeDelegates": 51,
+    "epoch": "2017-03-21T13:00:00.000Z"
+  },
+  "vendorField": {
+    "maxLength": 255
+  },
+  "nethash": "434f531b97911367a7029beab96834409d6a29c3b269b6e6156d84445b5b9cc3",
+  "explorer": "https://dexplorer.swipechain.org",
+  "knownWalletsUrl": "https://raw.githubusercontent.com/SwipeChain/common/master/devnet/known-wallets.json",
+  "token": "DARK",
+  "subunit": "darktoshi",
+  "symbol": "DѦ",
+  "fractionDigits": 8,
+  "version": 30,
+  "wif": 170
+}
