@@ -1,5 +1,5 @@
 import nock from 'nock'
-import { Managers } from '@arkecosystem/crypto'
+import { Managers } from '@swipechain/crypto'
 
 import BigNumber from '@/plugins/bignumber'
 import { CryptoUtils } from '@/services/crypto/utils'

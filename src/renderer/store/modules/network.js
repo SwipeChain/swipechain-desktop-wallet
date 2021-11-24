@@ -1,6 +1,6 @@
 import BaseModule from '../base'
 import { cloneDeep } from 'lodash'
-import { Managers } from '@arkecosystem/crypto'
+import { Managers } from '@swipechain/crypto'
 import { NETWORKS } from '@config'
 import { isEmpty } from '@/utils'
 import eventBus from '@/plugins/event-bus'

@@ -1,4 +1,4 @@
-import * as MagistrateCrypto from '@arkecosystem/core-magistrate-crypto'
+import * as MagistrateCrypto from '@swipechain/core-magistrate-crypto'
 import { TRANSACTION_TYPES } from '@config'
 import store from '@/store'
 import { CryptoUtils } from './utils'

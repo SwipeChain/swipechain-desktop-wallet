@@ -1,9 +1,9 @@
 {
   "id": "swipechain.mainnet",
-  "name": "Swipechain Mainnet",
-  "title": "Swipechain Mainnet",
+  "name": "SXP Mainnet",
+  "title": "SXP Mainnet",
   "server": "https://dapi.swipechain.org",
-  "description": "The ARK Mainnet should be chosen in most cases.",
+  "description": "The Swipechain Mainnet should be chosen in most cases.",
   "imagePath": "networks/ark.png",
   "apiVersion": 2,
   "slip44": "111",

@@ -1,13 +1,13 @@
 import * as bip39 from 'bip39'
 import nock from 'nock'
-import { Identities } from '@arkecosystem/crypto'
+import { Identities } from '@swipechain/crypto'
 import WalletService from '../../../src/renderer/services/wallet'
 import { CryptoUtils } from '@/services/crypto/utils'
 
 jest.mock('@/store', () => ({
   getters: {
     'session/network': {
-      crypto: require('@arkecosystem/crypto').Managers.configManager.config
+      crypto: require('@swipechain/crypto').Managers.configManager.config
     },
     'delegate/byUsername': (username) => {
       if (username === 'exists') {

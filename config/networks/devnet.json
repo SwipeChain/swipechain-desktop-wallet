@@ -1,7 +1,7 @@
 {
   "id": "swipechain.devnet",
-  "name": "Swipechain Devnet",
-  "title": "Swipechain Devnet",
+  "name": "SXP Devnet",
+  "title": "SXP Devnet",
   "server": "https://dapi.swipechain.org",
   "description": "The Swipechain Devnet is only used for R&D by engineers.",
   "imagePath": "networks/swipechain.devnet.svg",

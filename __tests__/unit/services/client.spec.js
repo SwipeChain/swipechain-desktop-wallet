@@ -1,6 +1,6 @@
 import { cloneDeep } from 'lodash'
 import nock from 'nock'
-import { Identities, Managers } from '@arkecosystem/crypto'
+import { Identities, Managers } from '@swipechain/crypto'
 import fixtures from '../__fixtures__/services/client'
 import ClientService from '@/services/client'
 import BigNumber from '@/plugins/bignumber'

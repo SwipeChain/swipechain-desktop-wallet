@@ -1,5 +1,5 @@
 import * as bip39 from 'bip39'
-import { Crypto, Identities } from '@arkecosystem/crypto'
+import { Crypto, Identities } from '@swipechain/crypto'
 import { version as mainnetVersion } from '@config/networks/mainnet'
 import store from '@/store'
 import { CryptoUtils } from './crypto/utils'

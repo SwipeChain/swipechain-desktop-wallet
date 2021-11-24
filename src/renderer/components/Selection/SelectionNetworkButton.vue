@@ -1,6 +1,7 @@
 <template>
   <Component
     :is="tag"
+    v-if="network.id !== 'swipechain.mainnet'"
     v-bind="$attrs"
     :class="`SelectionNetworkButton--${size}`"
     class="SelectionNetworkButton"

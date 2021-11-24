@@ -1,4 +1,4 @@
-import { Identities, Transactions } from '@arkecosystem/crypto'
+import { Identities, Transactions } from '@swipechain/crypto'
 import { dayjs } from '@/services/datetime'
 import store from '@/store'
 import TransactionService from '@/services/transaction'

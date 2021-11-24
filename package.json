@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "ark-desktop-wallet",
+  "name": "swipechain-desktop-wallet",
   "version": "2.9.5",
   "repository": {
     "type": "git",
@@ -50,10 +50,10 @@
   },
   "dependencies": {
     "@arkecosystem/client": "^1.0.5",
-    "@arkecosystem/core-magistrate-crypto": "^3.0.0-next.9",
-    "@arkecosystem/crypto": "^3.0.0-next.9",
+    "@swipechain/core-magistrate-crypto": "^3.0.0-next.9",
+    "@swipechain/crypto": "^3.0.0-next.9",
     "@arkecosystem/ledger-transport": "^1.1.2",
-    "@arkecosystem/peers": "^0.3.0",
+    "@swipechain/peers": "^0.3.0",
     "@arkecosystem/platform-sdk": "^0.0.2",
     "@babel/runtime": "^7.4.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.21",

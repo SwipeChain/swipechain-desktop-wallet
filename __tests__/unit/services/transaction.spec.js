@@ -1,5 +1,5 @@
-import { Crypto, Identities, Managers, Transactions } from '@arkecosystem/crypto'
-import * as MagistrateCrypto from '@arkecosystem/core-magistrate-crypto'
+import { Crypto, Identities, Managers, Transactions } from '@swipechain/crypto'
+import * as MagistrateCrypto from '@swipechain/core-magistrate-crypto'
 import TransactionService from '@/services/transaction'
 import transactionFixture from '../__fixtures__/models/transaction'
 import currencyMixin from '@/mixins/currency'

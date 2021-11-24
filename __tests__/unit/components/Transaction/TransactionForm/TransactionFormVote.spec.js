@@ -1,5 +1,5 @@
 import { createLocalVue, mount } from '@vue/test-utils'
-import { Identities } from '@arkecosystem/crypto'
+import { Identities } from '@swipechain/crypto'
 import Vuelidate from 'vuelidate'
 import installI18n from '../../../__utils__/i18n'
 import { TransactionFormVote } from '@/components/Transaction/TransactionForm'

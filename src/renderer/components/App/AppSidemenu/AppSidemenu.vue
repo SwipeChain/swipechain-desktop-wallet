@@ -54,7 +54,7 @@
           />
 
           <!-- Plugin Manager -->
-          <MenuNavigationItem
+          <!-- <MenuNavigationItem
             id="plugin-manager"
             :title="$t('APP_SIDEMENU.PLUGIN_MANAGER')"
             :is-horizontal="isHorizontal"
@@ -62,10 +62,10 @@
             class="AppSidemenu__item"
             icon="manage-plugins"
             @click="redirect($event)"
-          />
+          /> -->
 
           <!-- Plugin pages -->
-          <MenuNavigationItem
+          <!-- <MenuNavigationItem
             v-if="hasPluginMenuItems"
             id="plugin-pages"
             :title="$t('APP_SIDEMENU.PLUGINS_PAGES')"
@@ -74,7 +74,7 @@
             class="AppSidemenu__item"
             icon="my-plugins"
             @click="toggleShowPluginMenu"
-          />
+          /> -->
 
           <AppSidemenuPlugins
             v-if="hasPluginMenuItems && isPluginMenuVisible"

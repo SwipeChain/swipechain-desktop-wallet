@@ -1,5 +1,5 @@
 import { random, shuffle } from 'lodash'
-import { PeerDiscovery } from '@arkecosystem/peers'
+import { PeerDiscovery } from '@swipechain/peers'
 import ClientService from '@/services/client'
 import config from '@config'
 import i18n from '@/i18n'
@@ -366,7 +366,7 @@ export default {
           'swipechain.mainnet': 'mainnet',
           'swipechain.devnet': 'devnet'
         }
-
+        console.log('network: ', network)
         if (network && networkLookup[network.id]) {
           console.log('Could not refresh peer list. Using fallback seeds: ', error)
 

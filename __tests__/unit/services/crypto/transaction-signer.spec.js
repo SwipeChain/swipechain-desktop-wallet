@@ -1,6 +1,6 @@
 import { cloneDeep } from 'lodash'
 import nock from 'nock'
-import { Identities, Managers, Transactions } from '@arkecosystem/crypto'
+import { Identities, Managers, Transactions } from '@swipechain/crypto'
 import { TransactionSigner } from '@/services/crypto/transaction-signer'
 import BigNumber from '@/plugins/bignumber'
 import store from '@/store'
