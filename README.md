@@ -4,6 +4,8 @@
 [![Latest Version](https://badgen.now.sh/github/release/SwipeChain/swipechain-desktop-wallet)](https://github.com/SwipeChain/swipechain-desktop-wallet/releases)
 [![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
 
+> Lead Maintainer: [Lúcio Rubens](https://github.com/luciorubeens)
+
 ## Download
 
 [Latest Release](https://github.com/SwipeChain/ark-desktop/releases/latest)
