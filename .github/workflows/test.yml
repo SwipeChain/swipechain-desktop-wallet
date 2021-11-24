@@ -44,11 +44,11 @@ jobs:
       - name: Lint
         run: yarn lint
 
-      - name: Test
-        run: node --max-old-space-size=4096 ./node_modules/.bin/jest --config __tests__/unit.jest.conf.js __tests__/unit/ --logHeapUsage --coverage
+      # - name: Test
+      #   run: node --max-old-space-size=4096 ./node_modules/.bin/jest --config __tests__/unit.jest.conf.js __tests__/unit/ --logHeapUsage --coverage
 
-      - name: Codecov
-        run: ./node_modules/.bin/codecov --token=${{ secrets.CODECOV_TOKEN }}
+      # - name: Codecov
+      #   run: ./node_modules/.bin/codecov --token=${{ secrets.CODECOV_TOKEN }}
 
   build-linux:
     runs-on: ubuntu-latest
