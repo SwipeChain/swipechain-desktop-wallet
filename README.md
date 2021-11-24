@@ -1,12 +1,8 @@
-# ARK Desktop Wallet
-
-![Ark Desktop Wallet](./banner.png)
+# Swipechain Desktop Wallet
 
 [![Build Status](https://badgen.now.sh/github/status/SwipeChain/swipechain-desktop-wallet)](https://github.com/SwipeChain/swipechain-desktop-wallet/actions?query=branch%3Adevelop)
 [![Latest Version](https://badgen.now.sh/github/release/SwipeChain/swipechain-desktop-wallet)](https://github.com/SwipeChain/swipechain-desktop-wallet/releases)
 [![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
-
-> Lead Maintainer: [Lúcio Rubens](https://github.com/luciorubeens)
 
 ## Download
 
