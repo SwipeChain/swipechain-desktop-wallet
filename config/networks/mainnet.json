@@ -9,7 +9,7 @@
   "slip44": "111",
   "market": {
     "enabled": true,
-    "ticker": "ARK"
+    "ticker": "SXP"
   },
   "feeStatistics": [
     {

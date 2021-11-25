@@ -200,8 +200,8 @@
     "webpack-hot-middleware": "^2.25.0"
   },
   "build": {
-    "productName": "ARK Desktop Wallet",
-    "appId": "io.ark.desktop-wallet",
+    "productName": "Swipechain Desktop Wallet",
+    "appId": "org.swipechain.desktop-wallet",
     "artifactName": "${name}-${os}-${arch}-${version}.${ext}",
     "afterSign": "scripts/notarize.js",
     "npmRebuild": false,
@@ -213,7 +213,7 @@
       "app-update.yml"
     ],
     "protocols": {
-      "name": "Ark URI scheme",
+      "name": "Swipechain URI scheme",
       "schemes": [
         "ark"
       ],
