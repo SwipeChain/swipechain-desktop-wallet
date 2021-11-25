@@ -125,4 +125,3 @@ This project exists thanks to all the people who [contribute](../../contributors
 ## License
 
 [MIT](LICENSE) © [ARK Ecosystem](https://ark.io)
-[MIT](LICENSE) © [Swipechain](https://swipechain.org)
