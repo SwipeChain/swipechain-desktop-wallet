@@ -54,7 +54,7 @@
   },
   "nethash": "6e84d08bd299ed97c212c886c98a57e36545c8f5d645ca7eeae63a8bd62d8988",
   "explorer": "https://explorer.swipechain.org",
-  "knownWalletsUrl": "https://raw.githubusercontent.com/ArkEcosystem/common/master/mainnet/known-wallets.json",
+  "knownWalletsUrl": "https://raw.githubusercontent.com/SwipeChain/common/master/mainnet/known-wallets.json",
   "token": "SXP",
   "subunit": "arktoshi",
   "symbol": "SXP",

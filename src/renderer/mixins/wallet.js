@@ -71,7 +71,7 @@ export default {
         return contactWallet
       }
 
-      const networkWallet = this.session_network.knownWallets[address]
+      const networkWallet = this.session_network.knownWallets ? this.session_network.knownWallets[address] : ''
       if (networkWallet) {
         return networkWallet
       }

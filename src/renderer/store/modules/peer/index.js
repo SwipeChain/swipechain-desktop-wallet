@@ -376,6 +376,7 @@ export default {
             try {
               const seeds = fallbackSeeds[network.id]
               const seed = seeds[Math.floor(Math.random() * seeds.length)]
+              console.log('seed ip: ', seed)
               const peerDiscovery = await PeerDiscovery.new({ networkOrHost: `http://${seed.ip}:4003/api/peers` })
               console.log('peer discovery: ', peerDiscovery)
               peers = await discoverPeers(peerDiscovery)
